@@ -17,11 +17,7 @@ app.use("/", indexRouter);
 
 app.listen(PORTA, function () {
         console.log(`
-——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————\n
-\t\t\t\t\tO servidor GVM está online!
-\t\t\tAcesse o caminho a seguir para visualizar: http://localhost:${PORTA} \n
-——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————\n
-\t\t\tVocê está utilizando o banco de dados local(MySQL Workbench).\n
-——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————\n`
+
+\tAcesse o caminho a seguir para visualizar: http://localhost:${PORTA} \n`
         );
     });

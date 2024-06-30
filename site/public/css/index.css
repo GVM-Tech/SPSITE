@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "Roboto",sans-serif;
+    color: azure;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+header{
+    background-image: url("../IMG/IMG HEADER 2.svg");
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+}
+.textoBanda{
+    color: azure;
+    height: 65vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8%; width: 100%;
+    background-color: rgba(100, 6, 22, 0);
+    border-bottom: 1px groove red;
+}
+ul{
+    display: flex;
+    list-style: none;
+    width: 12%;
+    color: azure;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+}
+
+.bandaTitulo{
+    font-size: 90px;
+    font-weight: 400;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #ffffff, 0 0 50px #000000, 0 0 60px #ffffff, 0 0 70px #e60000;;
+}
+
+section{
+    width: 80%;
+}
+
+.textoPadrao{
+    font-size: 16px;
+    color: azure;
+}
+
+.tituloPadrao{
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 0 #ff0000, -2px 0 #ff0000, 0 2px #ff0000, 0 -2px #ff0000,
+    1px 1px #ff0000, -1px -1px #ff0000, 1px -1px #ff0000, -1px 1px #ff0000;
+    text-align: center;
+}
+
+.sectionQuemSomos{
+    margin-top: 9%;
+    margin-bottom: 9%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txtCarrusel{
+    font-size: 32px;
+    color: azure;
+}
+.txtSomos{
+    width: 40%;
+}
+
+.imgQuem{
+    height: 150%;
+}
+
+.bordaVemrCima{
+    border-top: 2px groove red;
+    border-bottom: 2px groove red;
+    padding-top: 1%;
+    padding-bottom: 3%;
+
+
+}
+
+
+.videoLeft{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.videoRight{
+    display: flex;
+    flex-direction: column;
+
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.txtVideo{
+    font-size: 15px;
+    text-align: right;
+}
+
+.tituloVid{
+    font-size: 15px;
+    text-align: left;
+}
+
+.classeVideo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alignText{
+    width: 60%;
+    padding-top: 7%;
+    padding-left: 2%;
+    text-align: start;
+}
+
+.enigma{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txtEnigma{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 4%;
+}
+
+.botaoCadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22PX;
+    background-color:#00000096;
+    color: #fff;
+    border: 2px groove red;
+    padding: 15px;
+    border-radius:10px; 
+    min-height:90px; 
+    min-width: 290px;
+}
+.botaoCadastro:hover {
+    background-color:#ad0000;
+    transition: 0.7s;
+}
+
+footer{
+    background-image: url("../IMG/Footer.svg");
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    height: 45vh;
+}
