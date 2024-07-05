@@ -54,10 +54,26 @@ body{
     border: 2px groove red;
     border-radius:60px;
     height:540px;
-    width: 32%;
+    width:35%;
     display: flex;
 }
 
-.cetralCas{
-    
+.inputSpec{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.inputSly{
+    background-color: black;
+    border-bottom: 2px groove red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: 0;
+    width: 45%;
+    margin-top: 8%;
 }
