@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/register.css" />
+    <link rel="stylesheet" href="css/login.css" />
     <title>Document</title>
   </head>
   <header>
@@ -20,17 +20,14 @@
   </header>
   <body>
     <div>
-      <h1 class="cadastroLetra">Cadastro</h1>
+      <h1 class="loginLetra">LOGIN</h1>
     </div>
     <main class="container">
       <div class="square">
         <div class="inputSpec">
-          <input class="inputSly" id="Nome"  type="text" placeholder="Usuario" />
           <input class="inputSly" id="Email" type="email" placeholder="Email" />
           <input class="inputSly" id="Senha" type="password" placeholder="Senha"/>
-          <input class="inputSly" id="ConfirmarSenha" type="password" placeholder="Confirmar Senha"/>
           <div id="toggle" onclick="showHide('Senha','toggle')"></div>
-          <div id="toggle2" onclick="showHide('ConfirmarSenha','toggle2')"></div>
           <script>
             function showHide(idInput,toggle){
               let togglePassword = document.getElementById(toggle);
@@ -46,9 +43,9 @@
             }
             }
           </script>
-          <button class="botaoCadastro localBotao" href="#">Cadastrar</button>
+          <button class="botaoLogin localBotao">LOGAR</button>
           <div class="topCas">
-            Já Possui cadastro? <a class="blurLogin" href="login.html">LOGIN</a>
+            Não Possui cadastro? <a class="blurLogin" href="register.html">Cadastrar</a>
           </div>
         </div>
       </div>
